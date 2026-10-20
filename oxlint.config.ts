@@ -99,6 +99,16 @@ export default defineConfig({
 							 * (e.g const Component = as ?? 'button')
 							 */
 							'Component',
+							/**
+							 * `ScrollArea` is allowed to be styled from above due to being a container
+							 */
+							'ScrollArea',
+						],
+						allowedForPatterns: [
+							/**
+							 * `Base*` are Base UI primitives wrapped by a styled uikit component
+							 */
+							'Base*',
 						],
 						propName: 'className',
 					},
