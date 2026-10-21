@@ -48,6 +48,39 @@
       "filePath": "src/components/button/button.stories.tsx",
       "namedExport": "WithIcon",
       "meta": {}
+    },
+    "scroll-area--both": {
+      "name": "Both",
+      "levels": [
+        "Scroll area"
+      ],
+      "locStart": 49,
+      "locEnd": 63,
+      "filePath": "src/components/scroll-area/scroll-area.stories.tsx",
+      "namedExport": "Both",
+      "meta": {}
+    },
+    "scroll-area--default": {
+      "name": "Default",
+      "levels": [
+        "Scroll area"
+      ],
+      "locStart": 19,
+      "locEnd": 29,
+      "filePath": "src/components/scroll-area/scroll-area.stories.tsx",
+      "namedExport": "Default",
+      "meta": {}
+    },
+    "scroll-area--horizontal": {
+      "name": "Horizontal",
+      "levels": [
+        "Scroll area"
+      ],
+      "locStart": 31,
+      "locEnd": 47,
+      "filePath": "src/components/scroll-area/scroll-area.stories.tsx",
+      "namedExport": "Horizontal",
+      "meta": {}
     }
   }
 }
